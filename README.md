@@ -1,6 +1,8 @@
 
 # IoT-based AQI Estimation using Image Processing and Learning Methods
 
+![Algorithmic Pipeline](/algorithm_pipeline.png)
+
 Air pollution is a concern to the health of all
 living beings. It is essential to check on the quality of air in
 the surroundings. This article presents an IoT-based real-time
