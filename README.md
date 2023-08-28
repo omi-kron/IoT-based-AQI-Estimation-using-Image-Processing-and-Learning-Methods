@@ -59,20 +59,50 @@ python3 data_collection_rpi.py
 ```
 To run this file on boot one needs to create a service file. To create a service file automation.md should be followed.
 
-'''
+```
 automation.md
-'''
+```
+
+The GPS coordinates are collected using the android phone with the application named GPS Logger installed in it: [GPS Logger](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger&hl=en&gl=US).
+
+### Sensor Data Calibration and Preprocessing
+
+The sensor data which is collected using the data collection device is need to be calibrated and pre-processed. The pre-processing involves estimating the AQI from the PM2.5 and PM10 values which are collected using the sensor. The preprocessing is done in the ipython notebook file called,
+
+```
+sensor_data_preprocessing.ipynb
+```
+
+### Image Features Extraction
+
+The image features like 
+
 
 
 ## Installation
 
-Install my-project with npm
+To clone this repository, 
 
 ```bash
-  npm install my-project
-  cd my-project
+git clone omi-kron/IoT-based-AQI-Estimation-using-Image-Processing-and-Learning-Methods
 ```
-    
+After that run if you are using pip,
+
+```bash
+pip install -r requirements.txt
+```
+
+and in case of conda,
+
+```bash
+conda env create -f environment.yml
+
+```
+After creating the environment, you can activate it with:
+
+```bash
+conda activate my_project_env
+```
 ## Citation
 
 ```
@@ -97,7 +127,7 @@ The code, platform, and dataset are made available for academic research purpose
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
 - [@Om Kathalkar](https://github.com/omi-kron)
-
+- [@Shreyash Gujar](https://github.com/ShreyashGujar)
 ## Contact
 
 ```
