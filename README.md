@@ -152,7 +152,4 @@ The code, platform, and dataset are made available for academic research purpose
 - [@Shreyash Gujar](https://github.com/ShreyashGujar)
 ## Contact
 
-```
-nitin.nilesh@research.iiit.ac.in
-om.kathalkar@research.iiit.ac.in
-```
+Email - [Nitin Nilesh](mailto:nitin.nilesh@research.iiit.ac.in), [Om Kathalkar](om.kathalkar@research.iiit.ac.in)
