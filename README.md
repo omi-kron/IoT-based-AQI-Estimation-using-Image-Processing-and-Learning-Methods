@@ -41,13 +41,13 @@ The proposed methodology for the IoT-based AQI Estimation using Image Processing
 
 Before commencing data collection, a robust hardware setup was assembled. This setup consisted of A Raspberry Pi 3B+ (Rpi 3B+) microcontroller unit (MCU) and a PiCamera are connected to it to capture and process the vehicle images. The other sensors that were interfaced with the MCU include BME280 for temperature and humidity. A SDS011 Nova PM sensor was used for measuring the PM2.5 and PM10 concentrations.
 
-![Hardware Setup]()
+![Hardware Setup](/hardware.png)
 
 #### Data Collection Drive
 
 With the help of above hardware setup, the data collection device is prepared. The data collection device is mounted on the top of the vehicle and roamed around the city of hyderabad.
 
-![Data Collection Device]()
+![Data Collection Device](/AQI_node.png)
 
 The above device is made of Raspberry Pi 3B+ and extensively runs on the Python3. One needs to run following command on the Rpi to start data collection.
 
