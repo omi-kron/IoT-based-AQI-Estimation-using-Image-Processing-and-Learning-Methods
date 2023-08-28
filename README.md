@@ -145,7 +145,7 @@ The code, platform, and dataset are made available for academic research purpose
 - [GPS Logger]()
 - [YoloV5]()
 - [Google Draw]()
-## 👨‍🏫Authors
+## 👨‍🏫Contributors
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
 - [@Om Kathalkar](https://github.com/omi-kron)
