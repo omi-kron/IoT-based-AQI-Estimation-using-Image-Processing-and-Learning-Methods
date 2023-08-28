@@ -26,15 +26,23 @@ overall accuracy of 82% for AQI prediction.
 - The proposed method achieved overall 82% accuracy considering PM variation due to season.
 
 
-## 🌱Contents
+## Contents
 
-1. [Installation](#Installation)
-2. [LLIV-Phone Dataset](#LLIVPhone)
-3. [Methods](#Methods)
-4. [Datasets](#Datasets)
-5. [Metrics](#Metrics)
-6. [Citation](#Citation)
-## ⚙️ Installation
+1. [Implementation](#Implementation)
+2. [Installation](#Installation)
+3. [Citation](#Citation)
+4. [Paper](#Paper)
+5. [Authors](#Authors)
+## Implementation
+
+The proposed methodology for the IoT-based AQI Estimation using Image Processing and Learning Methods was executed through the following steps:
+
+#### Preparation of Hardware Setup
+
+![Hardware Setup](/hardware.png)
+
+
+## Installation
 
 Install my-project with npm
 
@@ -43,7 +51,7 @@ Install my-project with npm
   cd my-project
 ```
     
-## 📚Citation
+## Citation
 
 ```
   @INPROCEEDINGS{10152272,
@@ -60,7 +68,7 @@ Install my-project with npm
 
 The code, platform, and dataset are made available for academic research purpose only.
 
-## 📋Paper
+## Paper
 
 [Official Version of paper presented at 2022 IEEE 8th World Forum on Internet of Things (WF-IoT), Yokohama, Japan.](https://ieeexplore.ieee.org/document/10152272)
 ## 👨‍🏫Authors
@@ -68,7 +76,7 @@ The code, platform, and dataset are made available for academic research purpose
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
 - [@Om Kathalkar](https://github.com/omi-kron)
 - [@Shreyash Gujar](https://github.com/ShreyashGujar)
-## 📭Contact
+## Contact
 
 ```
 nitin.nilesh@research.iiit.ac.in
