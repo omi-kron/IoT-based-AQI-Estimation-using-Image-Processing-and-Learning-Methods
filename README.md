@@ -26,7 +26,7 @@ overall accuracy of 82% for AQI prediction.
 - The proposed method achieved overall 82% accuracy considering PM variation due to season.
 
 
-## Contents
+## 🌱Contents
 
 1. [Implementation](#Implementation)
 2. [Installation](#Installation)
@@ -39,7 +39,27 @@ The proposed methodology for the IoT-based AQI Estimation using Image Processing
 
 #### Preparation of Hardware Setup
 
-![Hardware Setup](/hardware.png)
+Before commencing data collection, a robust hardware setup was assembled. This setup consisted of A Raspberry Pi 3B+ (Rpi 3B+) microcontroller unit (MCU) and a PiCamera are connected to it to capture and process the vehicle images. The other sensors that were interfaced with the MCU include BME280 for temperature and humidity. A SDS011 Nova PM sensor was used for measuring the PM2.5 and PM10 concentrations.
+
+![Hardware Setup]()
+
+#### Data Collection Drive
+
+With the help of above hardware setup, the data collection device is prepared. The data collection device is mounted on the top of the vehicle and roamed around the city of hyderabad.
+
+![Data Collection Device]()
+
+The above device is made of Raspberry Pi 3B+ and extensively runs on the Python3. One needs to run following command on the Rpi to start data collection.
+
+```Python
+python3 data_collection_rpi.py
+
+```
+To run this file on boot one needs to create a service file. To create a service file automation.md should be followed.
+
+'''
+automation.md
+'''
 
 
 ## Installation
@@ -75,7 +95,7 @@ The code, platform, and dataset are made available for academic research purpose
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
 - [@Om Kathalkar](https://github.com/omi-kron)
-- [@Shreyash Gujar](https://github.com/ShreyashGujar)
+
 ## Contact
 
 ```
