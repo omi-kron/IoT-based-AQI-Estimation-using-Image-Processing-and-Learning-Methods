@@ -35,50 +35,6 @@ overall accuracy of 82% for AQI prediction.
 3. [Citation](#Citation)
 4. [Paper](#Paper)
 5. [Authors](#Authors)
-## Implementation
-
-The proposed methodology for the IoT-based AQI Estimation using Image Processing and Learning Methods was executed through the following steps:
-
-#### Preparation of Hardware Setup
-
-Before commencing data collection, a robust hardware setup was assembled. This setup consisted of A Raspberry Pi 3B+ (Rpi 3B+) microcontroller unit (MCU) and a PiCamera are connected to it to capture and process the vehicle images. The other sensors that were interfaced with the MCU include BME280 for temperature and humidity. A SDS011 Nova PM sensor was used for measuring the PM2.5 and PM10 concentrations.
-
-![Hardware Setup](/hardware.png)
-
-#### Data Collection Drive
-
-With the help of above hardware setup, the data collection device is prepared. The data collection device is mounted on the top of the vehicle and roamed around the city of hyderabad.
-
-![Data Collection Device](/AQI_node.png)
-
-The above device is made of Raspberry Pi 3B+ and extensively runs on the Python3. One needs to run following command on the Rpi to start data collection.
-
-```Python
-python3 data_collection_rpi.py
-
-```
-To run this file on boot one needs to create a service file. To create a service file automation.md should be followed.
-
-```
-automation.md
-```
-
-The GPS coordinates are collected using the android phone with the application named GPS Logger installed in it: [GPS Logger](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger&hl=en&gl=US).
-
-### Sensor Data Calibration and Preprocessing
-
-The sensor data which is collected using the data collection device is need to be calibrated and pre-processed. The pre-processing involves estimating the AQI from the PM2.5 and PM10 values which are collected using the sensor. The preprocessing is done in the ipython notebook file called,
-
-```
-sensor_data_preprocessing.ipynb
-```
-
-### Image Features Extraction
-
-The image features like 
-
-
-
 ## Installation
 
 To clone this repository, 
@@ -103,6 +59,64 @@ After creating the environment, you can activate it with:
 ```bash
 conda activate my_project_env
 ```
+## Implementation
+
+The proposed methodology for the IoT-based AQI Estimation using Image Processing and Learning Methods was executed through the following steps:
+
+#### Preparation of Hardware Setup
+
+Before commencing data collection, a robust hardware setup was assembled. This setup consisted of A Raspberry Pi 3B+ (Rpi 3B+) microcontroller unit (MCU) and a PiCamera are connected to it to capture and process the vehicle images. The other sensors that were interfaced with the MCU include BME280 for temperature and humidity. A SDS011 Nova PM sensor was used for measuring the PM2.5 and PM10 concentrations.
+
+![Hardware Setup](/hardware.png)
+
+#### Data Collection Drive
+
+With the help of above hardware setup, the data collection device is prepared. The data collection device is mounted on the top of the vehicle and roamed around the city of hyderabad.
+
+![Data Collection Device](/AQI_node.png)
+
+The above device is made of Raspberry Pi 3B+ and extensively runs on the Python3. One needs to run following command on the Rpi to start data collection.
+
+```Python
+python3 data_collection_rpi.py
+
+```
+To run this file on boot one needs to create a service file. To create a service file, ***automation.md*** can be followed.
+
+```
+automation.md
+```
+
+The GPS coordinates are collected using the android phone with the application named GPS Logger installed in it: [GPS Logger](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger&hl=en&gl=US).
+
+### Sensor Data Calibration and Preprocessing
+
+The sensor data which is collected using the data collection device is need to be calibrated and pre-processed. The pre-processing involves estimating the AQI from the PM2.5 and PM10 values which are collected using the sensor. The preprocessing is done in the ipython notebook file called,
+
+```
+sensor_data_preprocessing.ipynb
+```
+
+### Image Features Extraction
+
+To detect the vehicles from a given image,
+You-Only-Look-Once version 5 (YOLOv5) was trained
+on Indian Driving Dataset (IDD). 
+
+### Final Dataset Preparation
+
+The final dataset was prepared using concatenation of sensor features and image features. This was acheived using python and dataset is also cleaned as there are few outliers in it, that might affect the accuracy of the overall accuracy of the classification model. 
+ 
+
+
+
+## Experiments and Results
+
+For a comprehensive understanding of the conducted experiments and the outcomes achieved, I encourage you to refer to the accompanying paper. In particular, you can gain detailed insights into all the experiments and their corresponding results by reviewing the content presented in the IPython notebook titled "main_script.ipynb". This notebook serves as a comprehensive resource, providing thorough explanations and analyses of each experiment, making it an invaluable reference to delve into the research's intricacies and findings.
+
+```
+main_script.ipynb
+```
 ## Citation
 
 ```
@@ -123,6 +137,7 @@ The code, platform, and dataset are made available for academic research purpose
 ## Paper
 
 [Official Version of paper presented at 2022 IEEE 8th World Forum on Internet of Things (WF-IoT), Yokohama, Japan.](https://ieeexplore.ieee.org/document/10152272)
+## Tools 
 ## 👨‍🏫Authors
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
