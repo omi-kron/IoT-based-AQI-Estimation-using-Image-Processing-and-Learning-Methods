@@ -138,6 +138,13 @@ The code, platform, and dataset are made available for academic research purpose
 
 [Official Version of paper presented at 2022 IEEE 8th World Forum on Internet of Things (WF-IoT), Yokohama, Japan.](https://ieeexplore.ieee.org/document/10152272)
 ## Tools 
+
+- [Angry IP Scanner]() 
+- [VNC Viewer]()
+- [Raspberry Pi]()
+- [GPS Logger]()
+- [YoloV5]()
+- [Google Draw]()
 ## 👨‍🏫Authors
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
@@ -147,6 +154,5 @@ The code, platform, and dataset are made available for academic research purpose
 
 ```
 nitin.nilesh@research.iiit.ac.in
-
 om.kathalkar@research.iiit.ac.in
 ```
