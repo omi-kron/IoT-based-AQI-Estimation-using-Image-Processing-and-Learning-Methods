@@ -101,10 +101,18 @@ sensor_data_preprocessing.ipynb
 
 To detect the vehicles from a given image,
 You-Only-Look-Once version 5 (YOLOv5) was trained
-on Indian Driving Dataset (IDD). The detailed documentation on how to implement the YOLOv5 can be found on,
+on Indian Driving Dataset (IDD). 
 
-https://github.com/ultralytics/yolov5/tree/master
+See the [YOLOv5](https://github.com/ultralytics/yolov5/tree/master) Docs for full documentation on training, testing and deployment. See below for quickstart examples.
 
+Install
+Clone repo and install requirements.txt in a Python>=3.8.0 environment, including PyTorch>=1.8.
+
+```
+git clone https://github.com/ultralytics/yolov5  # clone
+cd yolov5
+pip install -r requirements.txt  # install
+```
 ### Final Dataset Preparation
 
 The final dataset was prepared using concatenation of sensor features and image features. This was acheived using python and dataset is also cleaned as there are few outliers in it, that might affect the accuracy of the overall accuracy of the classification model. 
