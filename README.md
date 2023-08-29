@@ -30,11 +30,14 @@ overall accuracy of 82% for AQI prediction.
 
 ## 🌱Contents
 
-1. [Implementation](#Implementation)
-2. [Installation](#Installation)
-3. [Citation](#Citation)
-4. [Paper](#Paper)
-5. [Authors](#Authors)
+1. [Installation](#Installation)
+2. [Implementation](#Implementation)
+3. [Experiments and Results](#Experiments and Results)
+4. [Citation](#Citation)
+5. [Paper](#Paper)
+6. [Tools](#Tools)
+7. [Contributors](#Contributors)
+
 ## Installation
 
 To clone this repository, 
@@ -147,6 +150,7 @@ The code, platform, and dataset are made available for academic research purpose
 ## Paper
 
 [Official Version of paper presented at 2022 IEEE 8th World Forum on Internet of Things (WF-IoT), Yokohama, Japan.](https://ieeexplore.ieee.org/document/10152272)
+
 ## Tools 
 
 - [IP Scanner](https://angryip.org/) 
@@ -159,7 +163,7 @@ The code, platform, and dataset are made available for academic research purpose
 - [Brisque](https://pypi.org/project/brisque/)
 - [Jupyter Notebook](https://jupyter.org/)
 
-## 👨‍🏫Contributors
+## Contributors
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
 - [@Om Kathalkar](https://github.com/omi-kron)
