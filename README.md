@@ -32,7 +32,7 @@ overall accuracy of 82% for AQI prediction.
 
 1. [Installation](#Installation)
 2. [Implementation](#Implementation)
-3. [Experiments and Results](#Experiments and Results)
+3. [Experiments and Results](#ExperimentsandResults)
 4. [Citation](#Citation)
 5. [Paper](#Paper)
 6. [Tools](#Tools)
