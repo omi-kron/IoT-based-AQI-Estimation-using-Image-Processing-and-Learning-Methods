@@ -170,9 +170,9 @@ The code, platform, and dataset are made available for academic research purpose
 - [@Shreyash Gujar](https://github.com/ShreyashGujar)
 
 ## Acknowlegdement
-```
+
 This research was supported partly by National Geospatial Programme (NGP), India, under grant no. 2073 (2020), PRIF Social Incubator Program (2019) and the Ministry of Electronics and Information Technology (MEITY), Govt. of India under grant no. 3070665 (2020), with no conflict of interests.
-```
+
 
 ## Contact
 
