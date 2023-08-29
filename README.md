@@ -167,7 +167,6 @@ The code, platform, and dataset are made available for academic research purpose
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
 - [@Om Kathalkar](https://github.com/omi-kron)
-- [@Shreyash Gujar](https://github.com/ShreyashGujar)
 
 ## Acknowlegdement
 
