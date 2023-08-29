@@ -28,7 +28,7 @@ overall accuracy of 82% for AQI prediction.
 - The proposed method achieved overall 82% accuracy considering PM variation due to season.
 
 
-## 🌱Contents
+## Contents
 
 1. [Installation](#Installation)
 2. [Implementation](#Implementation)
