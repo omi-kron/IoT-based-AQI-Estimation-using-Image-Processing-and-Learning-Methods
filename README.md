@@ -149,17 +149,22 @@ The code, platform, and dataset are made available for academic research purpose
 [Official Version of paper presented at 2022 IEEE 8th World Forum on Internet of Things (WF-IoT), Yokohama, Japan.](https://ieeexplore.ieee.org/document/10152272)
 ## Tools 
 
-- [Angry IP Scanner]() 
-- [VNC Viewer]()
-- [Raspberry Pi]()
-- [GPS Logger]()
-- [YoloV5]()
-- [Google Draw]()
+- [IP Scanner](https://angryip.org/) 
+- [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
+- [Raspberry Pi](https://www.raspberrypi.org/)
+- [GPS Logger](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger&hl=en&gl=US)
+- [YoloV5](https://github.com/ultralytics/yolov5/tree/master)
+- [Google Draw](https://docs.google.com/drawings/d/1ad-2te5WYHMQYcUkMucmmKYXNc4aVSumYkoQh-g1VGA/edit)
+- [Overleaf](https://www.overleaf.com/)
+- [Brisque](https://pypi.org/project/brisque/)
+- [Jupyter Notebook](https://jupyter.org/)
+
 ## 👨‍🏫Contributors
 
 - [@Nitin Nilesh](https://github.com/Pi-Rasp)
 - [@Om Kathalkar](https://github.com/omi-kron)
 - [@Shreyash Gujar](https://github.com/ShreyashGujar)
+
 ## Contact
 
 Email - [Nitin Nilesh](mailto:nitin.nilesh@research.iiit.ac.in), [Om Kathalkar](om.kathalkar@research.iiit.ac.in)
